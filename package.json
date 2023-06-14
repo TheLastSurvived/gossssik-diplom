@@ -50,7 +50,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install --force",
+    "build": "react-scripts build",
     "serve": "serve -s -c ./serve.json -l 3000",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
