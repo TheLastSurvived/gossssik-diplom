@@ -20,7 +20,8 @@
 html,
 body,
 #root {
-  height: 100%;
+  width: 100%;
+  
   /* background-color: var(--color-dark) !important; */
   background-image: url(27e1686e8b63c5337493d6e91bb30d15.jpg);
   background-size: 1550px 1250px;
