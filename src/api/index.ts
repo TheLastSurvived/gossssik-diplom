@@ -9,7 +9,7 @@ export const API_URL = process.env.REACT_APP_API_URL;
 
 const $api = axios.create({
   withCredentials: true,
-  baseURL: "https://gossssik-diplom.onrender.com/api",
+  baseURL: "https://image-editor-api.onrender.com/api",
 });
 
 $api.interceptors.request.use((config) => {
